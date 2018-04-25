@@ -8,8 +8,12 @@
 # </ul>
 
 a = 5
-b = ''
+b = ['<ul>']
 
 a.times do
-  puts b = '<li> hola </li>'
+  b.push('<li> hola </li>')
 end
+
+b.push('</ul>')
+
+puts b
