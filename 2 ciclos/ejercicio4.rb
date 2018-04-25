@@ -10,7 +10,6 @@
 a = 5
 b = ''
 
-a.times do
+a.times do 
   b = '<li> hola </li>'
 end
-
