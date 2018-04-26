@@ -13,7 +13,6 @@
  par
 =end
 
-
 a = 10
 a.times do |i|
   i += 1
